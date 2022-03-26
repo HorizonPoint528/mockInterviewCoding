@@ -36,5 +36,13 @@
 			<td>the Bird</td>
 			<td>@twitter</td>
     </tr>
+	<ng-container *ngFor="let user of users">
+        <tr style="text-align: center;">
+          <td class="number">{{user.id + 3}}</td>
+          <td>{{user.first_name}}</td>
+          <td>{{user.last_name}}</td>
+          <td>{{user.email}}</td>
+        </tr>
+      </ng-container>
 	</table>
 </div>

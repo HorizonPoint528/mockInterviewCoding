@@ -1,9 +1,9 @@
 #pageContent{
-    padding: 8% 0% 3%;
-    display: flex;
-    flex-direction: row;
-    background-repeat: no-repeat;
-    background-image: url(https://media.istockphoto.com/photos/healthy-fresh-rainbow-colored-fruits-and-vegetables-background-picture-id1208790371?s=612x612);
+  padding: 8% 0% 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;;
+  background-image: url(https://media.istockphoto.com/photos/healthy-fresh-rainbow-colored-fruits-and-vegetables-background-picture-id1208790371?s=612x612);
 }
 
 #headerRow{
@@ -17,8 +17,18 @@
 }
 
 table{
+    width: 100%;
+    border-collapse: collapse;
     text-align: center;
 }
 tr, th, td{
     padding: 15px;
+}
+th{
+  padding: 2vh 0;
+  color: white;
+}
+tr{
+  border-bottom: solid gray;
+  border-width: 3px 0;
 }
